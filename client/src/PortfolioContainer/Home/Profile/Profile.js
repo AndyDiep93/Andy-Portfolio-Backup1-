@@ -18,7 +18,7 @@ export default function Profile() {
               <a href="https://www.linkedin.com/in/andy-diep-521472182">
                 <i className="fa fa-linkedin-square"></i>
               </a>
-              <a href="https://github.com/Bluenurples">
+              <a href="https://github.com/AndyDiep93">
                 <i className="fa fa-github"></i>
               </a>
               <a href="https://andydiep33.wixsite.com/intro-to-python">
