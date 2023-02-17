@@ -170,7 +170,7 @@ export default function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img
-                      src="/../public/img/Testimonial/david.jpeg"
+                      src="img/Testimonial/david.jpeg"
                       alt="no internet connection"
                     ></img>
                     <h5>David Khuu</h5>
@@ -209,7 +209,7 @@ export default function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img
-                      src="public/img/Testimonial/jimmy.jpg"
+                      src="img/Testimonial/jimmy.jpg"
                       alt="no internet connection"
                     ></img>
                     <h5>Jimmy Van</h5>
