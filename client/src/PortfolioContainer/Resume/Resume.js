@@ -73,13 +73,13 @@ export default function Resume(props) {
         title: "Clean Collective",
         duration: { fromDate: "2021", toDate: "2022" },
         description: "Tinder for clean tech and oil & gas",
-        subHeading: "Technologies Used: React JS, Node Js, MongoDB, MUI",
+        subHeading: "Technologies Used: React JS, Node JS, MongoDB, MUI, HTML, CSS",
       },
       {
         title: "Keeper App",
         duration: { fromDate: "2022", toDate: "2022" },
         description: "An app where you can create notes",
-        subHeading: "Technologies Used: React JS",
+        subHeading: "Technologies Used: React JS, HTML, CSS",
       },
   ];
 

@@ -23,7 +23,7 @@ export default function Testimonial(props) {
     animateIn: "bounceInRight",
     animateOut: "bounceOutRight",
     dots: true,
-    autoplay: true,
+    autoplay: false,
     smartSpeed: 1000,
     responsive: {
       0: {
@@ -35,186 +35,97 @@ export default function Testimonial(props) {
       1000: {
         items: 3,
       },
+      1200: {
+        items: 5,
+      },
     },
   };
 
   return (
     <div>
       <ScreenHeading
-        title={"Testimonial"}
-        subHeading={"What My Peers and Connections Say About Me"}
+        title={"Projects"}
+        subHeading={"Peek at Some of the Projects I Worked On"}
       />
       <section className="testimonial-section fadeIn" id={props.id || ""}>
         <div className="container">
           <div className="row">
             <OwlCarousel
-              className="owl-carousel"
-              id="testimonial-carousel"
-              {...options}
+              items={1}
+              className="owl-theme"
+              loop
+              nav
+              dots
+              margin={8}
             >
-              <div className="col-lg-12">
-                <div className="testi-item">
-                  <div className="testi-comment">
-                    <p>
-                      <i className="fa fa-quote-left" />
-                      They were able to take our Avatar innovations idea, "Clean
-                      Collective", and build an MVP getting it one step closer
-                      to commercialization. The investment of time has had a
-                      rippling effect of impact, including but not limited to
-                      the following.
-                      <i className="fa fa-quote-right" />
-                    </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="client-info">
-                    <img
-                      src="img/Testimonial/derrek.png"
-                      alt="no internet connection"
-                    ></img>
-                    <h5>Derrek Wenisch</h5>
-                    <p>Sr. Business Development Manager - Vantage Circle</p>
-                  </div>
+              <div className="testi-item">
+                <div className="testi-comment">
+                  <p>Clean Collective: Landing Page</p>
+                  
+                </div>
+                <div>
+                  <img className="img" src={"img/Testimonial/CC1.png"} />
+
+                  <a href="https://github.com/AndyDiep93/Clean-Collective/tree/main">
+                  <br />
+                    Vist the Code Here!
+                  </a>
                 </div>
               </div>
 
-              <div className="col-lg-12">
-                <div className="testi-item">
-                  <div className="testi-comment">
-                    <p>
-                      <i className="fa fa-quote-left" />
-                      I had the pleasure of working with Andy for our SAIT
-                      Capstone Project and he exceeded my expectations in every
-                      way. Andy took charge of styling and front-end development
-                      and delivered outstanding results. He has a keen eye for
-                      detail and a talent for creating clean, modern designs.
-                      Great communicator and collaborator, it was a joy to work
-                      with him. I would highly recommend Andy for any project
-                      that requires his skills and would love the opportunity to
-                      work with him again in the future.
-                      <i className="fa fa-quote-right" />
-                    </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="client-info">
-                    <img
-                      src="img/Testimonial/julian.png"
-                      alt="no internet connection"
-                    ></img>
-                    <h5>Julian Lee</h5>
-                    <p>SAIT Peer</p>
-                  </div>
+              <div className="testi-item">
+                <div className="testi-comment">
+                  <p>Clean Collective: Forum Page</p>
+                  
+                </div>
+                <div>
+                  <img className="img" src={"img/Testimonial/CC2.png"} />
+                  <a href="https://github.com/AndyDiep93/Clean-Collective/tree/main">
+                  <br />
+                    Vist the Code Here!
+                  </a>
                 </div>
               </div>
-              <div className="col-lg-12">
-                <div className="testi-item">
-                  <div className="testi-comment">
-                    <p>
-                      <i className="fa fa-quote-left" />
-                      Andy is a highly motivated and dedicated individual who
-                      consistently delivers high-quality work on time. They have
-                      excellent communication skills, which allow them to
-                      effectively collaborate with team members and communicate
-                      with stakeholders. They are also a quick learner and are
-                      always eager to expand their knowledge and skills.
-                      <i className="fa fa-quote-right" />
-                    </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="client-info">
-                    <img
-                      src="img/Testimonial/david.jpeg"
-                      alt="no internet connection"
-                    ></img>
-                    <h5>David Khuu</h5>
-                    <p>Software Developer - RPM Software</p>
-                  </div>
+
+              <div className="testi-item">
+                <div className="testi-comment">
+                  <p>Clean Collective: User Settings Page</p>
+                  
+                </div>
+                <div>
+                  <img className="img" src={"img/Testimonial/CC3.png"} />
+                  <a href="https://github.com/AndyDiep93/Clean-Collective/tree/main">
+                  <br />
+                    Vist the Code Here!
+                  </a>
                 </div>
               </div>
-              <div className="col-lg-12">
-                <div className="testi-item">
-                  <div className="testi-comment">
-                    <p>
-                      <i className="fa fa-quote-left" />
-                      It was a pleasure working with you. You've got an
-                      incredible talent. Especially when it comes to UX/UI
-                      design and front-end development. Hope we're able to work
-                      together again some day.
-                      <i className="fa fa-quote-right" />
-                    </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="client-info">
-                    <img
-                      src="img/Testimonial/Jimmy.jpg"
-                      alt="no internet connection"
-                    ></img>
-                    <h5>Jimmy Van</h5>
-                    <p>SAIT Peer</p>
-                  </div>
+
+              <div className="testi-item">
+                <div className="testi-comment">
+                  <p>Keeper App</p>
+                  
+                </div>
+                <div>
+                  <img className="img" src={"img/Testimonial/keeperApp.png"} />
+                  <a href="https://github.com/AndyDiep93/Keeper-App">
+                  <br />
+                    Vist the Code Here!
+                  </a>
+                </div>
+              </div>
+
+              <div className="testi-item">
+                <div className="testi-comment">
+                  <p>The Simon Game</p>
+                 
+                </div>
+                <div>
+                  <img className="img" src={"img/Testimonial/simon.png"} />
+                  <a href="https://andydiep93.github.io/Simon-Game/">
+                  <br />
+                    Play the Game Here!
+                  </a>
                 </div>
               </div>
             </OwlCarousel>
