@@ -126,6 +126,10 @@ export default function Testimonial(props) {
                   <br />
                     Play the Game Here!
                   </a>
+                  <a href="https://github.com/AndyDiep93/Simon-Game">
+                  <br />
+                    Vist the Code Here!
+                  </a>
                 </div>
               </div>
             </OwlCarousel>

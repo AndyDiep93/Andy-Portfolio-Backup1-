@@ -1,5 +1,5 @@
 .testimonial-section {
-  padding: 60px 0 40px;
+  padding: 50px 0 40px;
   background-image: url("../../../src/assets/Testimonial/bg.jpg");
   background-position: center;
   background-attachment: fixed;
@@ -31,7 +31,7 @@
 }
 
 .testi-item img {
-  height: 500px;
+  height: 480px;
   /* width: 600px; */
   border-radius: 10px 10px 10px 10px;
 }
@@ -39,7 +39,8 @@
 
 .testimonial-section .testi-item {
   background-color: white;
-  padding: 10px 20px 20px 20px;
+  padding: 5px 20px 20px 20px;
+  /* margin-bottom: -2px; */
   border-radius: 10px 10px 10px 10px;
 }
 
@@ -47,14 +48,14 @@
   font-size: 16px;
   font-family: "Poppins Bold";
   line-height: 26px;
-  margin: 20px 20px;
+  margin: 10px 20px;
   text-decoration: underline #755139FF;
 }
 
 .testimonial-section .testi-item a {
   font-size: 15px;
   font-family: "Poppins Bold";
-  line-height: 26px;
+  line-height: 10px;
   color: #755139FF;
 }
 
@@ -75,7 +76,7 @@
   padding: 0 !important;
   font: inherit;
   font-size: 40px;
-  margin-right: 100px;
+  margin-right: 300px;
   left: -35px;
 }
 .owl-carousel button.owl-dots {
