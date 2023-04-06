@@ -71,6 +71,7 @@ export default function ContactMe(props) {
       <ScreenHeading subHeading={"Lets Keep In Touch"} title={"Contact Me"} />
       <div className="central-form">
         <div className="col">
+        
           <h2 className="title">
             <Typical loop={Infinity} steps={["Get In Touch 📧", 1200]} />
           </h2>

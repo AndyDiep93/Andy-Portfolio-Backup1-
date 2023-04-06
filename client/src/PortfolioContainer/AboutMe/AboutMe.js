@@ -62,6 +62,7 @@ export default function AboutMe(props) {
                 className="btn primary-btn"
                 onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
               >
+              
                 {" "}
                 Hire Me{" "}
               </button>
